@@ -1,0 +1,8 @@
+# dsh-ctrl-enter-send bundle patch
+#
+# One row only. The Host half (index.js) is intentionally empty: this feature is
+# browser-only, and the Client half declared in package.json (dsh.client)
+# installs the Enter / Ctrl+Enter rewrite at page boot.
+- insert:
+    - id: ctrl-enter-send
+      name: dsh-ctrl-enter-send

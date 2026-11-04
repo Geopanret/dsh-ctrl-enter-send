@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ctrl+Enter to Send",
+    "description": "In the composer, Enter inserts a newline and Ctrl+Enter (Cmd+Enter on macOS) sends. Shift+Enter, the slash/@ menus, IME composition, the empty-draft steer gesture, and every other input keep their current behavior; disable the plugin to restore the original keys."
+  }
+}

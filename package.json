@@ -1,0 +1,55 @@
+{
+  "name": "dsh-ctrl-enter-send",
+  "version": "0.1.0",
+  "description": "Send the DSH composer with Ctrl+Enter (Cmd+Enter on macOS); plain Enter inserts a newline instead of sending.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Maloseri",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geopanret/dsh-ctrl-enter-send.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Geopanret/dsh-ctrl-enter-send/issues"
+  },
+  "homepage": "https://github.com/Geopanret/dsh-ctrl-enter-send#readme",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "composer",
+    "keyboard",
+    "enter",
+    "shortcut"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0 <0.3.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ctrl+Enter 发送",
+    "description": "对话输入框里 Enter 只换行，Ctrl+Enter（macOS 为 Cmd+Enter）才发送。Shift+Enter、斜杠/引用菜单、输入法组词、空草稿插话与其他输入框行为保持不变；停用即恢复原样。"
+  }
+}
